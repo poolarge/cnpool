@@ -32,7 +32,13 @@ If you want to help with testing or help setting up your own pool, give me a
 shout on IRC: jtgrassie on Freenode.
 
 ## Compiling from source
+you may simplly run the compile-cnpool.sh
 
+```bash
+cp ~/cnpool/compile-cnpool.sh ~/compile-cnpool.sh
+chmod +x compile-cnpool.sh
+./compile-cnpool.sh
+```
 ### Dependencies
 
 The build system now requires the Monero source tree to be cloned and compiled.
